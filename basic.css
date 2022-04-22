@@ -4,6 +4,7 @@ html {
 
 body {
   min-height: 100%;
+  margin: 0%;
 }
 
 .toolbar {
@@ -77,10 +78,10 @@ div.hov {
   display: none;
 }
 
-button:focus + div.hov {
+.dropdown:focus + div.hov {
   display: block;
 }
 
-button:hover {
+.dropdown:hover {
   background-color: #ff6b00;
 }

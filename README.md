@@ -3,7 +3,9 @@ This portfolio is practice for the sake of learning.
 
 ## Built With
 
-- This repo is built using all the concept learnt in previous section.
+- HTML
+- CSS
+-> flexbox
 
 ## Authors
 
