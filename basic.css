@@ -39,7 +39,6 @@ body {
 
 .headline {
   background-color: #1c1a19;
-  padding-top: 0%;
   margin: 0%;
   background-image: url(./images/bdimage.svg);
   background-repeat: no-repeat;
@@ -47,7 +46,7 @@ body {
   flex-direction: column;
   align-content: center;
   height: auto;
-  padding: 120px 14px;
+  padding: 120px 24px;
 }
 
 .toolbar,
@@ -58,7 +57,6 @@ body {
 h1,
 p,
 ul {
-  padding: 00 10px;
   width: 60%;
 }
 
@@ -73,14 +71,14 @@ ul {
   padding: 0%;
 }
 
-button:focus+ div.hov { 
-  display: block;
-}
-
 div.hov {
   background-color: #fff;
   padding: 5px;
   display: none;
+}
+
+button:focus + div.hov {
+  display: block;
 }
 
 button:hover {
