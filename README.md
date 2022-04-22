@@ -7,6 +7,14 @@ This portfolio is practice for the sake of learning.
 - CSS
 -> flexbox
 
+## Getting Started
+
+Clone the repository to use it on your local system.
+
+## Usage
+
+View the file through the 'index.html'.
+
 ## Authors
 
 👤 **Author**
