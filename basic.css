@@ -8,13 +8,9 @@ body {
 
 .toolbar {
   background-color: #3c3a39;
-
-  /* display: flex; */
   margin: 0%;
-  padding: 10px;
+  padding: 12px 24px;
   height: fit-content;
-
-  /* grid-column: 0.2; */
 }
 
 .dropdown {
@@ -50,11 +46,8 @@ body {
   background-position: bottom right;
   flex-direction: column;
   align-content: center;
-
-  /* height: 90%; */
   height: auto;
-
-  /* flex-grow: 10 4 20 4; */
+  padding: 120px 14px;
 }
 
 .toolbar,
@@ -66,29 +59,11 @@ h1,
 p,
 ul {
   padding: 00 10px;
-
-  /* display: flex; */
-
-  /* flex-direction: column;
-  align-content: center; */
   width: 60%;
-
-  /* height: 90%; */
 }
 
 .bgimg {
-  /* display: none; */
   float: right;
-
-  /* position: absolute; */
-
-  /* width: 406.89px; */
-
-  /* height: 312.03px; */
-
-  /* left: 620.1px; */
-
-  /* top: 317px; */
 }
 
 ul {
@@ -98,14 +73,16 @@ ul {
   padding: 0%;
 }
 
-/* .headline {
-  display: grid;
-  grid-template-columns: 0 7;
-  grid-row: auto;
-  grid-column: auto;
-  height: 1000%;
+button:focus+ div.hov { 
+  display: block;
 }
 
-body {
-  display: grid;
-} */
+div.hov {
+  background-color: #fff;
+  padding: 5px;
+  display: none;
+}
+
+button:hover {
+  background-color: #ff6b00;
+}
