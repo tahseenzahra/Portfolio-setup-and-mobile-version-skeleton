@@ -1,3 +1,21 @@
+.Robotofont {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Poppinsfont {
+  font-family: 'Poppins', sans-serif;
+}
+
+.Interfont,
+.tecnoBTN > li,
+.nostyle > li {
+  font-family: 'Inter', sans-serif;
+}
+
+.CreteRoundfont {
+  font-family: 'Crete Round', serif;
+}
+
 html {
   height: 100%;
 }
@@ -18,32 +36,27 @@ body {
   margin-left: auto;
 }
 
-.fontFam {
-  font-family: 'Roboto', sans-serif;
-}
-
 .logo {
   text-decoration: none;
 }
 
-.textcolor {
+.textcolor,
+.ARTtecnoBTN {
   color: #fff;
 }
 
-/* css for headline */
-.fontFamily {
-  font-family: 'Poppins', sans-serif;
+.MainAboutme,
+.headline {
+  background-color: #1c1a19;
 }
 
 .mainText {
-  font-family: 'Crete Round', serif;
   margin: 0%;
   padding-top: 30px;
   color: #ff6b00;
 }
 
 .headline {
-  background-color: #1c1a19;
   margin: 0%;
   background-image: url(./images/bdimage.svg);
   background-repeat: no-repeat;
@@ -69,7 +82,12 @@ ul {
   float: right;
 }
 
-ul {
+.contactIcons,
+.nostyle {
+  list-style: none;
+}
+
+.contactIcons {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -86,6 +104,145 @@ div.hov {
   display: block;
 }
 
-.dropdown:hover {
+.dropdown:hover,
+.PrjBTN {
   background-color: #ff6b00;
+}
+
+.worksection {
+  margin: 24px;
+}
+
+.workheading {
+  text-align: center;
+}
+
+.multiPost {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+
+.gymimg {
+  margin-top: 80px;
+  position: static;
+  width: 327px;
+  height: 237px;
+  top: 0;
+  left: 24px;
+}
+
+.multiPostText1 {
+  margin-bottom: 0%;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.multiPostText2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.PrjBTN {
+  height: 48px;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.SePrjBTN {
+  width: 154px;
+  margin-right: 100%;
+}
+
+.tecnoBTN,
+.ARTtecnoBTN {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+
+.tecnoBTN > li {
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px;
+  margin: 0 5px;
+}
+
+.ArtData {
+  background-image: url(./images/Pgbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ArtTxt {
+  margin-top: 84px;
+}
+
+.ARTtecnoBTN > li {
+  background: rgba(255, 255, 255, 0.24);
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px;
+  margin: 0 5px;
+}
+
+.Txt {
+  padding: 24;
+}
+
+.Aboutme {
+  margin-left: 24px;
+  background-image: url(./images/Aboutmebg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  display: grid;
+  grid-template-rows: 60px 200px 200px auto;
+}
+
+.aboutmeHr > {
+  margin: 50px;
+  position: absolute;
+  height: 0;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0px / 2 + 0.5px);
+  border: 1px solid #fff;
+}
+
+.nostyle {
+  color: #fff;
+}
+
+.nostyle > li > ul > li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.boldfont {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
