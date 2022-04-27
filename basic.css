@@ -6,13 +6,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.Interfont,
-::-webkit-input-placeholder
-.tecnoBTN > li,
-.nostyle > li {
-  font-family: 'Inter', sans-serif;
-}
-
 .CreteRoundfont {
   font-family: 'Crete Round', serif;
 }
@@ -231,6 +224,10 @@ div.hov {
   color: #fff;
 }
 
+.socialmediaIcons > li {
+  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg) brightness(95%) contrast(91%);
+}
+
 .nostyle > li > ul > li {
   font-style: normal;
   font-weight: 400;
@@ -258,14 +255,6 @@ div.hov {
   margin-top: 120px;
 }
 
-::-webkit-input-placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  position: absolute;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -278,8 +267,7 @@ div.hov {
   flex-direction: column;
   gap: 24px;
   margin-top: 58px;
-  margin-bottom: 124px;
-  
+  margin-bottom: 124px; 
 }
 
 .no-outline {
@@ -298,19 +286,29 @@ div.hov {
   border-bottom-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
-  background: #fbf8f7
+  background: #fbf8f7;
 }
 
 .socialmediaIcons {
   margin: 15px 63px 13px 64px;
 }
 
-.socialmediaIcons > li {
-  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg) brightness(95%) contrast(91%);
+.footerHR1 {
+  border: 2px solid #dfe1e6;
+  width: 100%;
 }
 
-.footerHR1 {
-  background: #DFE1E6;
-  border: 2px solid #Dfe1e6;
-  width: 100%;
+.Interfont,
+.tecnoBTN > li,
+.nostyle > li
+::-webkit-input-placeholder {
+  font-family: 'Inter', sans-serif;
+}
+
+::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
 }
