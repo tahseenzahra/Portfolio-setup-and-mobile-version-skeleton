@@ -305,6 +305,10 @@ div.hov {
   margin: 15px 63px 13px 64px;
 }
 
+.socialmediaIcons > li {
+  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg) brightness(95%) contrast(91%);
+}
+
 .footerHR1 {
   background: #DFE1E6;
   border: 2px solid #Dfe1e6;
