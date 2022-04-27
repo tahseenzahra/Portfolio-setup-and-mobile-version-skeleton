@@ -307,4 +307,6 @@ div.hov {
 
 .footerHR1 {
   background: #DFE1E6;
+  border: 2px solid #Dfe1e6;
+  width: 100%;
 }
