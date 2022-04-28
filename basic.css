@@ -12,7 +12,7 @@
 
 .Interfont,
 .tecnoBTN > li,
-.nostyle > li ::-webkit-input-placeholder {
+.nostyle > li {
   font-family: "Inter", sans-serif;
 }
 
