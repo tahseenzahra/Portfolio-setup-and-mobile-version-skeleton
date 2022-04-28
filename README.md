@@ -17,17 +17,17 @@ View the file through the 'index.html'.
 
 ## Authors
 
-👤 **Author**
+👤 **Tahseen**
 
 - GitHub: [@githubhandle](https://github.com/tahseenzahra)
 - Twitter: [@twitterhandle](https://twitter.com/tahseen1zahra)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tahseenzahra/)
 
-👤 **Author**
+👤 **Shaheer**
 
 - GitHub: [@githubhandle](https://github.com/ShaheerCH)
 
-👤 **Author**
+👤 **Robutson**
 
 - GitHub: [@githubhandle](https://github.com/bobb-Rob)
 

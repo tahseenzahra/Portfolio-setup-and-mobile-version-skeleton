@@ -129,6 +129,10 @@ div.hov {
   background-color: rgba (255, 107, 0, 1);
 }
 
+.footerBTN {
+  align-items: center;
+}
+
 .worksection {
   margin: 24px;
 }
