@@ -232,10 +232,10 @@
     </section>
 
     <footer class="footer">
-      <div class="Interfont footerTxt">
+      <p class="Interfont footerTxt">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
-      </div>
+      </p>
       <form
         class="contactForm"
         action="https://formspree.io/f/xeqnpapb"
@@ -246,14 +246,14 @@
           type="text"
           maxlength="30"
           placeholder="Full Name"
-        />
+        required/>
 
         <input
           class="no-outline"
           type="email"
           name="email"
           placeholder="Email Address"
-        />
+        required/>
 
         <textarea
           name="message"
@@ -261,8 +261,8 @@
           rows="7"
           cols="70"
           class="formTxtArea"
-        >
-        Enter text here.</textarea
+          placeholder="Enter text here."
+        required></textarea
         >
         <button type="button" class="PrjBTN SePrjBTN Interfont">
           Get in touch
