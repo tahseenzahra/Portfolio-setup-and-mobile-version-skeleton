@@ -104,13 +104,13 @@ div.hov {
   display: block;
 }
 
-.PrjBTN:hover {
-  background-color:  rgba (255, 107, 0, 1);
-}
-
 .dropdown:hover,
 .PrjBTN {
   background-color: #ff6b00;
+}
+
+.PrjBTN:hover {
+  background-color: rgba (255, 107, 0, 1);
 }
 
 .worksection {
