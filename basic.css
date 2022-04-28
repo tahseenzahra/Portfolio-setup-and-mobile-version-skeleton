@@ -104,6 +104,10 @@ div.hov {
   display: block;
 }
 
+.PrjBTN:hover {
+  background-color:  rgba (255, 107, 0, 1);
+}
+
 .dropdown:hover,
 .PrjBTN {
   background-color: #ff6b00;
@@ -261,6 +265,8 @@ div.hov {
   font-size: 32px;
   line-height: 44px;
   margin-top: 120px;
+  text-align: center;
+  width: 100%;
 }
 
 .footer {
