@@ -1,19 +1,19 @@
 .Robotofont {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .Poppinsfont {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.CreteRoundfont {
+  font-family: "Crete Round", serif;
 }
 
 .Interfont,
 .tecnoBTN > li,
 .nostyle > li {
-  font-family: 'Inter', sans-serif;
-}
-
-.CreteRoundfont {
-  font-family: 'Crete Round', serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -109,6 +109,30 @@ div.hov {
   background-color: #ff6b00;
 }
 
+.PrjBTN {
+  height: 48px;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 5rem;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.PrjBTN:hover {
+  background-color: rgba (255, 107, 0, 1);
+}
+
+.footerBTN {
+  align-items: center;
+}
+
 .worksection {
   margin: 24px;
 }
@@ -144,25 +168,10 @@ div.hov {
   line-height: 24px;
 }
 
-.PrjBTN {
-  height: 48px;
-  border: none;
-  color: #fff;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 17px;
-  margin-top: 5rem;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-}
-
 .SePrjBTN {
   width: 154px;
   margin-right: 100%;
+  position: static;
 }
 
 .tecnoBTN,
@@ -229,6 +238,12 @@ div.hov {
   color: #fff;
 }
 
+.socialmediaIcons > li {
+  filter:
+    invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg)
+    brightness(95%) contrast(91%);
+}
+
 .nostyle > li > ul > li {
   font-style: normal;
   font-weight: 400;
@@ -245,4 +260,76 @@ div.hov {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.footerTxt {
+  position: static;
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 120px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+  gap: 24px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 58px;
+  margin-bottom: 124px;
+}
+
+.no-outline {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  align-items: center;
+  padding-bottom: 14px;
+}
+
+.formTxtArea {
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  background: #fbf8f7;
+}
+
+.socialmediaIcons {
+  margin: 15px 63px 13px 64px;
+}
+
+.footerHR1 {
+  border: 2px solid #dfe1e6;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  position: absolute;
+  font-family: "Inter", sans-serif;
+}
+
+.line {
+  margin: -40px 121px 8px 78px;
+  padding: 2.5px 80px;
+  background-color: #0d151e;
+  border: #0d151e;
+  border-radius: 5px;
 }
