@@ -23,6 +23,14 @@ View the file through the 'index.html'.
 - Twitter: [@twitterhandle](https://twitter.com/tahseen1zahra)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tahseenzahra/)
 
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/ShaheerCH)
+
+👤 **Author**
+
+- GitHub: [@githubhandle](https://github.com/bobb-Rob)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
