@@ -1,13 +1,13 @@
 .Robotofont {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .Poppinsfont {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .CreteRoundfont {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
 }
 
 html {
@@ -225,7 +225,8 @@ div.hov {
 }
 
 .socialmediaIcons > li {
-  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg) brightness(95%) contrast(91%);
+  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg)
+    brightness(95%) contrast(91%);
 }
 
 .nostyle > li > ul > li {
@@ -267,7 +268,7 @@ div.hov {
   flex-direction: column;
   gap: 24px;
   margin-top: 58px;
-  margin-bottom: 124px; 
+  margin-bottom: 124px;
 }
 
 .no-outline {
@@ -300,9 +301,8 @@ div.hov {
 
 .Interfont,
 .tecnoBTN > li,
-.nostyle > li
-::-webkit-input-placeholder {
-  font-family: 'Inter', sans-serif;
+.nostyle > li ::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
 }
 
 ::-webkit-input-placeholder {
@@ -311,4 +311,12 @@ div.hov {
   font-size: 15px;
   line-height: 24px;
   position: absolute;
+}
+
+.line {
+  margin: -40px 121px 8px 78px;
+  padding: 2.5px 80px;
+  background-color: #0d151e;
+  border: #0d151e;
+  border-radius: 5px;
 }
