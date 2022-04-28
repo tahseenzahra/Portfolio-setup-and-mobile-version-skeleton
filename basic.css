@@ -10,6 +10,12 @@
   font-family: "Crete Round", serif;
 }
 
+.Interfont,
+.tecnoBTN > li,
+.nostyle > li ::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
+}
+
 html {
   height: 100%;
 }
@@ -225,7 +231,8 @@ div.hov {
 }
 
 .socialmediaIcons > li {
-  filter: invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg)
+  filter:
+    invert(37%) sepia(8%) saturate(1464%) hue-rotate(179deg)
     brightness(95%) contrast(91%);
 }
 
@@ -299,18 +306,13 @@ div.hov {
   width: 100%;
 }
 
-.Interfont,
-.tecnoBTN > li,
-.nostyle > li ::-webkit-input-placeholder {
-  font-family: "Inter", sans-serif;
-}
-
 ::-webkit-input-placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   position: absolute;
+  font-family: "Inter", sans-serif;
 }
 
 .line {
