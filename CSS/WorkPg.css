@@ -71,8 +71,11 @@
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+  transition: border 2s, color 2s, background-color 1s;
 }
 
-.PrjBTN:hover {
-  background-color: rgba (255, 107, 0, 1);
+.PrjBTN:hover { 
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+  background-color: #fff5e1;
 }
