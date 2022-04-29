@@ -1,0 +1,41 @@
+.headline {
+  background-color: #1c1a19;
+}
+
+.headline {
+  margin: 0%;
+  background-image: url(./images/bdimage.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  flex-direction: column;
+  align-content: center;
+  height: auto;
+  padding: 120px 24px;
+}
+
+.headline {
+  display: flex;
+}
+
+.mainText {
+  margin: 0%;
+  padding-top: 30px;
+  color: #ff6b00;
+}
+
+.textcolor {
+  color: #fff;
+}
+
+.contactIcons {
+  list-style: none;
+}
+
+.contactIcons {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0%;
+}
+
+

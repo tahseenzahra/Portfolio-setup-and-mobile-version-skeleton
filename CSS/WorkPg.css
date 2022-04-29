@@ -1,0 +1,81 @@
+.worksection {
+  margin: 24px;
+}
+
+.workheading {
+  text-align: center;
+}
+
+.gymimg {
+  margin-top: 80px;
+  position: static;
+  width: 327px;
+  height: 237px;
+  top: 0;
+  left: 24px;
+}
+
+.multiPost {
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+
+.multiPostText1 {
+  margin-bottom: 0%;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.multiPostText2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.SePrjBTN {
+  width: 154px;
+  margin-right: 100%;
+  position: static;
+}
+
+.tecnoBTN {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+
+.tecnoBTN > li {
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px;
+  margin: 0 5px;
+}
+
+.PrjBTN {
+  background-color: #ff6b00;
+}
+
+.PrjBTN {
+  height: 48px;
+  border: none;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 5rem;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.PrjBTN:hover {
+  background-color: rgba (255, 107, 0, 1);
+}

@@ -1,0 +1,49 @@
+.MainAboutme {
+  background-color: #1c1a19;
+}
+
+.Aboutme {
+  margin-left: 24px;
+  background-image: url(./images/Aboutmebg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  display: grid;
+  grid-template-rows: 60px 200px 200px auto;
+}
+
+.aboutmeHr > {
+  margin: 50px;
+  position: absolute;
+  height: 0;
+  left: 0;
+  right: 0;
+  top: calc(50% - 0px / 2 + 0.5px);
+  border: 1px solid #fff;
+}
+
+.nostyle {
+  color: #fff;
+}
+
+.nostyle > li > ul > li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+}
+
+.nostyle {
+  list-style: none;
+}
+
+.boldfont {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+

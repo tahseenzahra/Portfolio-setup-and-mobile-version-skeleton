@@ -1,0 +1,36 @@
+.toolbar {
+  display: flex;
+}
+
+.toolbar {
+  background-color: #3c3a39;
+  margin: 0%;
+  padding: 12px 24px;
+  height: fit-content;
+}
+
+.textcolor {
+  color: #fff;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.dropdown:focus + div.hov {
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #ff6b00;
+}
+
+.dropdown {
+  margin-left: auto;
+}
+
+div.hov {
+  background-color: #fff;
+  padding: 5px;
+  display: none;
+}
