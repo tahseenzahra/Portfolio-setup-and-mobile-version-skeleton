@@ -1,8 +1,5 @@
 .headline {
   background-color: #1c1a19;
-}
-
-.headline {
   margin: 0%;
   background-image: url(./images/bdimage.svg);
   background-repeat: no-repeat;
@@ -25,7 +22,6 @@
 }
 
 .contactIcons {
-  list-style: none;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
