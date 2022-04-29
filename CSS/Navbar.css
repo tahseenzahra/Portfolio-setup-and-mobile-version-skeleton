@@ -1,8 +1,5 @@
 .toolbar {
   display: flex;
-}
-
-.toolbar {
   background-color: #3c3a39;
   margin: 0%;
   padding: 12px 24px;
@@ -17,20 +14,20 @@
   text-decoration: none;
 }
 
-.dropdown:focus + div.hov {
-  display: block;
+div.hov {
+  background-color: #fff;
+  padding: 5px;
+  display: none;
 }
 
-.dropdown:hover {
-  background-color: #ff6b00;
+.dropdown:focus + div.hov {
+  display: block;
 }
 
 .dropdown {
   margin-left: auto;
 }
 
-div.hov {
-  background-color: #fff;
-  padding: 5px;
-  display: none;
+.dropdown:hover {
+  background-color: #ff6b00;
 }

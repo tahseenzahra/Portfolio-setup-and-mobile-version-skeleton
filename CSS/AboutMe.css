@@ -21,10 +21,6 @@
   border: 1px solid #fff;
 }
 
-.nostyle {
-  color: #fff;
-}
-
 .nostyle > li > ul > li {
   font-style: normal;
   font-weight: 400;
@@ -33,6 +29,7 @@
 }
 
 .nostyle {
+  color: #fff;
   list-style: none;
 }
 
@@ -46,4 +43,3 @@
   align-items: center;
   text-align: center;
 }
-

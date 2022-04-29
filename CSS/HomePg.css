@@ -7,14 +7,11 @@
   background-image: url(./images/bdimage.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
+  display: flex;
   flex-direction: column;
   align-content: center;
   height: auto;
   padding: 120px 24px;
-}
-
-.headline {
-  display: flex;
 }
 
 .mainText {
@@ -29,13 +26,8 @@
 
 .contactIcons {
   list-style: none;
-}
-
-.contactIcons {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0%;
 }
-
-
