@@ -1,0 +1,32 @@
+.Robotofont {
+  font-family: "Roboto", sans-serif;
+}
+
+.Poppinsfont {
+  font-family: "Poppins", sans-serif;
+}
+
+.CreteRoundfont {
+  font-family: "Crete Round", serif;
+}
+
+.Interfont,
+.tecnoBTN > li,
+.nostyle > li {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0%;
+}
+
+h1,
+p,
+ul {
+  width: 60%;
+}
