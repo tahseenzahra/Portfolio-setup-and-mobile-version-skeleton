@@ -8,7 +8,7 @@
 
 .gymimg {
   margin-top: 80px;
-  margin-right: 00px;
+  margin-right: none;
   position: static;
   width: 527px;
   height: 437px;
@@ -87,10 +87,10 @@
   .container_PostStories {
     display: grid;
     grid-template-areas:
-        "img img txt"
-        "img img txt"
-        "img img txt"
-        "img img txt";
+          "img img txt"
+          "img img txt"
+          "img img txt"
+          "img img txt";
     gap: 10px;
     place-self: center;
   }
@@ -102,7 +102,7 @@
   }
 
   .PrjBTN {
-    margin-top: 00rem;
+    margin-top: none;
   }
 
   .itemPS-1 {
