@@ -87,10 +87,10 @@
   .container_PostStories {
     display: grid;
     grid-template-areas:
-          "img img txt"
-          "img img txt"
-          "img img txt"
-          "img img txt";
+            "img img txt"
+            "img img txt"
+            "img img txt"
+            "img img txt";
     gap: 10px;
     place-self: center;
   }
