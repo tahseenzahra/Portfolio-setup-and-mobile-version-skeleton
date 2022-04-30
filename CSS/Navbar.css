@@ -1,6 +1,7 @@
 .toolbar {
   display: flex;
-  align-items: flex-end;
+
+  /* align-items: flex-end; */
   background-color: #3c3a39;
   margin: 0%;
   padding: 12px 24px;
@@ -12,18 +13,6 @@
 .mail_box {
   position: relative;
   top: -13px;
-}
-
-.Section_link {
-  list-style: none;
-  display: flex;
-  gap: 10px;
-  align-items: flex-center;
-}
-
-.Section_link > li > a {
-  color: #fff;
-  text-decoration: none; 
 }
 
 .textcolor {
@@ -53,27 +42,28 @@ div.hov {
 }
 
 .Section_link {
-    display: none;
-  }
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .dropdown {
     display: none;
   }
-  
+
   .Section_link {
     list-style: none;
     display: flex;
     gap: 10px;
     align-items: flex-center;
   }
-  
+
   .Section_link > li > a {
     color: #fff;
-    text-decoration: none; 
+    text-decoration: none;
+
   }
-  
+ 
   #Portfolio_link {
     margin-left: auto;
   }
-} 
+}

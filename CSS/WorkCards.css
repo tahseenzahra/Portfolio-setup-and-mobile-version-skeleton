@@ -36,8 +36,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
   }
+
   .FlashCards > div {
     width: 369px;
     height: 435px;
@@ -45,8 +45,8 @@
 
   .Flashcard-1 {
     background-image: url(/images/D_workCardsBG1.svg);
-    
   }
+
   .Flashcard-1 > .FlashcardPrjBTN {
     margin-top: 25rem;
   }
@@ -75,4 +75,4 @@
   .Flashcard-4 {
     background-image: url(/images/D_workCardsBG4.svg);
   }
-} 
+}

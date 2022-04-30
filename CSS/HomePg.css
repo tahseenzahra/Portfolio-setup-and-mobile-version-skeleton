@@ -36,26 +36,30 @@
     background-size: 500.13px 769.27px;
     display: grid;
     grid-template-areas:
-    ". A A A"
-    ". A A A"
-    "D A A A"
-    "D A A A"
-    "D B B B"
-    "D C C ."
-    "D C C ."
-    "D C C .";
+        ". A A A"
+        ". A A A"
+        "D A A A"
+        "D A A A"
+        "D B B B"
+        "D C C ."
+        "D C C ."
+        "D C C .";
     column-gap: 20px;
   }
+  
   .item-A {
     grid-area: A;
   }
+
   .item-B {
     grid-area: B;
   }
+
   .item-C {
     grid-area: C;
     width: 50%;
   }
+
   .item-D {
     grid-area: D;
     display: flex;

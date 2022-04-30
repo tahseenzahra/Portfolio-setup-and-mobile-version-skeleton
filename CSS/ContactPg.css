@@ -84,16 +84,18 @@
   .footer_contact {
     display: grid;
     grid-template-areas:
-    "A B"
-    "A B"
-    "A B"
-    "A B";
+        "A B"
+        "A B"
+        "A B"
+        "A B";
     column-gap: 80px;
-    align-content: center
+    align-content: center;
   }
+
   .item-1 {
     grid-area: A;
   }
+
   .item-2 {
     grid-area: B;
   }

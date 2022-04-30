@@ -8,7 +8,7 @@
 
 .gymimg {
   margin-top: 80px;
-  margin-right: 0px;
+  margin-right: 00px;
   position: static;
   width: 527px;
   height: 437px;
@@ -78,7 +78,6 @@
 }
 
 .PrjBTN:hover {
-  
   border: 1px solid #ff6b00;
   color: #ff6b00;
   background-color: #fff5e1;
@@ -88,10 +87,10 @@
   .container_PostStories {
     display: grid;
     grid-template-areas:
-    "img img txt"
-    "img img txt"
-    "img img txt"
-    "img img txt";
+        "img img txt"
+        "img img txt"
+        "img img txt"
+        "img img txt";
     gap: 10px;
     place-self: center;
   }
@@ -103,14 +102,14 @@
   }
 
   .PrjBTN {
-    margin-top: 0em;
+    margin-top: 00rem;
   }
 
   .itemPS-1 {
     grid-area: img;
   }
 
-  itemPS-2 {
+  .itemPS-2 {
     grid-area: txt;
   }
 }
