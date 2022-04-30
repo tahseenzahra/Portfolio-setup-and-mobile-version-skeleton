@@ -8,11 +8,14 @@
 
 .gymimg {
   margin-top: 80px;
+  margin-right: 0px;
   position: static;
-  width: 327px;
-  height: 237px;
+  width: 527px;
+  height: 437px;
   top: 0;
   left: 24px;
+  align-items: center;
+  justify-content: center;
 }
 
 .multiPost {
@@ -74,8 +77,40 @@
   transition: border 2s, color 2s, background-color 1s;
 }
 
-.PrjBTN:hover { 
+.PrjBTN:hover {
+  
   border: 1px solid #ff6b00;
   color: #ff6b00;
   background-color: #fff5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .container_PostStories {
+    display: grid;
+    grid-template-areas:
+    "img img txt"
+    "img img txt"
+    "img img txt"
+    "img img txt";
+    gap: 10px;
+    place-self: center;
+  }
+
+  .gymimg {
+    height: 427px;
+    margin-top: 0%;
+    justify-self: start;
+  }
+
+  .PrjBTN {
+    margin-top: 0em;
+  }
+
+  .itemPS-1 {
+    grid-area: img;
+  }
+
+  itemPS-2 {
+    grid-area: txt;
+  }
 }

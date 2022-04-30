@@ -1,7 +1,7 @@
 .headline {
   background-color: #1c1a19;
   margin: 0%;
-  background-image: url(./images/bdimage.svg);
+  background-image: url(/images/bdimage.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   display: flex;
@@ -26,4 +26,40 @@
   display: flex;
   justify-content: space-evenly;
   padding: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    background-image: url(/images/D_HomePgBG.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500.13px 769.27px;
+    display: grid;
+    grid-template-areas:
+    ". A A A"
+    ". A A A"
+    "D A A A"
+    "D A A A"
+    "D B B B"
+    "D C C ."
+    "D C C ."
+    "D C C .";
+    column-gap: 20px;
+  }
+  .item-A {
+    grid-area: A;
+  }
+  .item-B {
+    grid-area: B;
+  }
+  .item-C {
+    grid-area: C;
+    width: 50%;
+  }
+  .item-D {
+    grid-area: D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 }

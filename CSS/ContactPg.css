@@ -45,7 +45,7 @@
 }
 
 .footerHR1 {
-  border: 2px solid #dfe1e6;
+  border: solid #dfe1e6;
   width: 100%;
 }
 
@@ -78,4 +78,27 @@
   line-height: 24px;
   position: absolute;
   font-family: "Inter", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_contact {
+    display: grid;
+    grid-template-areas:
+    "A B"
+    "A B"
+    "A B"
+    "A B";
+    column-gap: 80px;
+    align-content: center
+  }
+  .item-1 {
+    grid-area: A;
+  }
+  .item-2 {
+    grid-area: B;
+  }
+
+  .footerHR2 {
+    display: none;
+  }
 }
