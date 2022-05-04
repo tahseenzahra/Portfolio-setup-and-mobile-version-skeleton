@@ -45,6 +45,8 @@
       "D C C ."
       "D C C .";
     column-gap: 20px;
+    width: 100%;
+    height: 400px;
   }
 
   .item-A {

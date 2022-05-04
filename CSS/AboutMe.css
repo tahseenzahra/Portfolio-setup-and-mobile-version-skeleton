@@ -1,5 +1,6 @@
 .MainAboutme {
   background-color: #1c1a19;
+  height: 100%;
 }
 
 .Aboutme {
@@ -9,6 +10,7 @@
   background-position: bottom right;
   display: grid;
   grid-template-rows: 60px 200px 200px auto;
+  width: 100%;
 }
 
 .aboutmeHr > {
@@ -45,11 +47,25 @@
 }
 
 @media screen and (min-width: 768px) {
+  .work_section_line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .work_sec_hrLine {
+    margin: -40px 121px 8px 78px;
+  padding: 2.5px 80px;
+  background-color: #0d151e;
+  border: #0d151e;
+  border-radius: 5px;
+  }
+
   .Aboutme {
     background-image: url(/images/D_AboutmeBg.svg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 450.13px 769.27px;
+    background-size: 350.13px 769.27px;
   }
 
   .list {
@@ -79,5 +95,23 @@
 
   .itm_c {
     grid-area: C;
+  }
+
+  .mainText {
+    font-size: 40px;
+    margin-top: 250px;
+  }
+
+  .Aboutme {
+    margin-left: 82px;
+    display: grid;
+    grid-template-areas:
+      "A A A"
+      "B B B"
+      "C C C";
+  }
+
+  .Aboutme_text {
+    width: 40%;
   }
 }

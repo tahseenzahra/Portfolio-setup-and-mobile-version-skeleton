@@ -10,8 +10,6 @@
   margin-top: 80px;
   margin-right: none;
   position: static;
-  width: 527px;
-  height: 437px;
   top: 0;
   left: 24px;
   align-items: center;
@@ -46,8 +44,9 @@
   align-items: center;
   list-style: none;
   display: flex;
-  gap: 5px;
-  justify-content: space-evenly;
+
+  /* gap: 5px;
+  justify-content: space-evenly; */
 }
 
 .tecnoBTN > li {
@@ -102,7 +101,7 @@
   }
 
   .PrjBTN {
-    margin-top: none;
+    margin-top: 2px;
   }
 
   .itemPS-1 {
