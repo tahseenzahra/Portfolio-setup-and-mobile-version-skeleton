@@ -1,0 +1,68 @@
+.toolbar {
+  display: flex;
+
+  /* align-items: flex-end; */
+  background-color: #3c3a39;
+  margin: 0%;
+  padding: 12px 24px;
+  height: fit-content;
+  height: 44px;
+  align-items: baseline;
+}
+
+.mail_box {
+  position: relative;
+  top: -13px;
+}
+
+.textcolor {
+  color: #fff;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+div.hov {
+  background-color: #fff;
+  padding: 5px;
+  display: none;
+}
+
+.dropdown:focus + div.hov {
+  display: block;
+}
+
+.dropdown {
+  margin-left: auto;
+}
+
+.dropdown:hover {
+  background-color: #ff6b00;
+}
+
+.Section_link {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .dropdown {
+    display: none;
+  }
+
+  .Section_link {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: flex-center;
+  }
+
+  .Section_link > li > a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #Portfolio_link {
+    margin-left: auto;
+  }
+}
