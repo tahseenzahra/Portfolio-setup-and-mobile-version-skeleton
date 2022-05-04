@@ -31,6 +31,10 @@ View the file through the 'index.html'.
 
 - GitHub: [@githubhandle](https://github.com/bobb-Rob)
 
+👤 **Solomon Khaluhi**
+
+- GitHub: [@githubhandle](https://github.com/Solo7991)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
