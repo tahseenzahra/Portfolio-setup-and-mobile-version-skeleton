@@ -338,3 +338,8 @@ div.hov {
   border-radius: 10px;
   margin: 15px auto 8px auto;
 }
+
+.contactBTN {
+  display: block;
+  margin: auto;
+}
