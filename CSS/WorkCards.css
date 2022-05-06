@@ -1,0 +1,83 @@
+.ArtData {
+  background-image: url(/images/Pgbg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Txt {
+  padding: 24;
+}
+
+.ArtTxt {
+  margin-top: 84px;
+}
+
+.ARTtecnoBTN {
+  color: #fff;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+
+.ARTtecnoBTN > li {
+  background: rgba(255, 255, 255, 0.24);
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 4px;
+  margin: 0 5px;
+}
+
+.workText1,
+.workText2 {
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .FlashCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FlashCards > div {
+    width: 369px;
+    height: 435px;
+  }
+
+  .Flashcard-1 {
+    background-image: url(/images/D_workCardsBG1.svg);
+  }
+
+  .Flashcard-1 > .FlashcardPrjBTN {
+    margin-top: 25rem;
+  }
+
+  .Flashcard-1 > h3,
+  .Flashcard-1 > p,
+  .Flashcard-1 > ul,
+  .Flashcard-2 > .PrjBTN,
+  .Flashcard-3 > .PrjBTN,
+  .Flashcard-4 > .PrjBTN,
+  .Flashcard-5 > .PrjBTN,
+  .Flashcard-6 > .PrjBTN {
+    display: none;
+  }
+
+  .Flashcard-2,
+  .Flashcard-5 {
+    background-image: url(/images/D_workCardsBG2.svg);
+  }
+
+  .Flashcard-3,
+  .Flashcard-6 {
+    background-image: url(/images/D_workCardsBG3.svg);
+  }
+
+  .Flashcard-4 {
+    background-image: url(/images/D_workCardsBG4.svg);
+  }
+}
