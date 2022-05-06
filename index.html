@@ -14,12 +14,12 @@
     />
     <!-- All styling sheets  -->
     <link rel="stylesheet" href="./CSS/basic.css"/>
-    <link rel="stylesheet" href="./CSS/ContactPg.css"/>
-    <link rel="stylesheet" href="./CSS/AboutMe.css"/>
-    <link rel="stylesheet" href="./CSS/HomePg.css"/>
     <link rel="stylesheet" href="./CSS/Navbar.css"/>
-    <link rel="stylesheet" href="./CSS/WorkCards.css"/>
+    <link rel="stylesheet" href="./CSS/HomePg.css"/>
     <link rel="stylesheet" href="./CSS/WorkPg.css"/>
+    <link rel="stylesheet" href="./CSS/WorkCards.css"/>
+    <link rel="stylesheet" href="./CSS/AboutMe.css"/>
+    <link rel="stylesheet" href="./CSS/ContactPg.css"/>
     <title>Portfolio</title>
   </head>
   <body>
@@ -62,7 +62,8 @@
     <section class="worksection">
       <div class="work_section_line">
         <h2 class="workheading CreteRoundfont">My Recent Works</h2>
-        <hr class="work_sec_hrLine"/>
+        <div class="workspace-divider"> </div>
+        <!-- class="work_sec_hrLine" -->
       </div>
       <!-- Desktop 1st section -->
       <div class="container_PostStories">
@@ -190,16 +191,20 @@
     <!-- About me -->
     <section class="MainAboutme">
       <div class="Aboutme">
-        <h3 class="mainText CreteRoundfont">About me</h3>
-        <p class="textcolor Poppinsfont Aboutme_text">
-          I’am a Software Developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <button type="button" class="PrjBTN SePrjBTN Interfont">
-          Get My Resume
-        </button>
+
+          <h3 class="part_a mainText CreteRoundfont">About me</h3>
+
+          <p class="part_b textcolor Poppinsfont Aboutme_text">
+            I’am a Software Developer! I can help you build a product , feature or
+            website Look through some of my work and experience! If you like what
+            you see and have a project you need coded, don’t hestiate to contact
+            me.
+          </p>
+
+          <button type="button" class="part_c PrjBTN SePrjBTN Interfont">
+            Get My Resume
+          </button>
+
       </div>
       <hr class="aboutmeHr" />
 
@@ -270,14 +275,14 @@
           placeholder="Enter text here."
         required></textarea
         >
-        <button type="submit" class="PrjBTN SePrjBTN Interfont footerBTN">
+        <button type="submit" class="contactBTN PrjBTN SePrjBTN Interfont footerBTN">
           Get in touch
         </button>
       </form>
     </div>
 
       <hr class="footerHR1" />
-      <ul class="footer-icons socialmediaIcons">
+      <ul class="contactIcons socialmediaIcons">
         <li><img src="images/GitHub.svg" alt="" /></li>
         <li><img src="images/Linkedin.svg" alt="" /></li>
         <li><img src="images/Angelist.svg" alt="" /></li>

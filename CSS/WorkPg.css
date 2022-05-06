@@ -95,7 +95,7 @@
   }
 
   .gymimg {
-    height: 427px;
+    height: 327px;
     margin-top: 0%;
     justify-self: start;
   }
@@ -111,4 +111,19 @@
   .itemPS-2 {
     grid-area: txt;
   }
+
+  .workspace-divider,
+  .workheading {
+    display: inline;
+  }
+
+  .workspace-divider {
+
+    /* transform: rotate(180deg); */
+    border-top: 0.1px solid #212121;
+    width: 57%;
+    border-radius: 5px;
+    align-self: center;
+  }
+
 }

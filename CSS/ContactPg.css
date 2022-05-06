@@ -50,11 +50,17 @@
 }
 
 .footerHR2 {
-  margin: -40px 121px 8px 78px;
+  background-color: #0d151e;
+  height: 5px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 15px auto 8px auto;
+
+  /* margin: -40px 121px 8px 78px;
   padding: 2.5px 80px;
   background-color: #0d151e;
   border: #0d151e;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 
 .socialmediaIcons > li {
@@ -80,6 +86,11 @@
   font-family: "Inter", sans-serif;
 }
 
+.contactBTN {
+  display: block;
+  margin: auto;
+}
+
 .footer-icons {
   list-style: none;
   display: flex;
@@ -95,7 +106,7 @@
       "A B"
       "A B"
       "A B";
-    column-gap: 80px;
+    column-gap: 10px;
     align-content: center;
   }
 
