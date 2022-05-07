@@ -12,8 +12,9 @@
   font-size: 32px;
   line-height: 44px;
   margin-top: 120px;
+  margin-bottom: 73px;
   text-align: center;
-  width: 100%;
+  width: auto;
 }
 
 .contactForm {
@@ -106,7 +107,7 @@
       "A B"
       "A B"
       "A B";
-    column-gap: 10px;
+    column-gap: 80px;
     align-content: center;
   }
 
