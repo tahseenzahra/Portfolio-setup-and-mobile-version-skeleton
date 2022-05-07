@@ -92,6 +92,7 @@
       "img img txt";
     gap: 10px;
     place-self: center;
+    margin-left: 84px;
   }
 
   .gymimg {
@@ -123,5 +124,9 @@
     width: 57%;
     border-radius: 5px;
     align-self: center;
+  }
+
+  .FlashCards > div > p {
+    width: auto;
   }
 }

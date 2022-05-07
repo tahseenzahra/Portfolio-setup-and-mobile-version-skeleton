@@ -133,4 +133,12 @@
   .Aboutme_text {
     width: 40%;
   }
+
+  .inner-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-inline-start: 0%;
+    text-align: left;
+  }
 }
