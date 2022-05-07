@@ -343,3 +343,23 @@ div.hov {
   display: block;
   margin: auto;
 }
+
+/* Solomon's contribution */
+.logo {
+  animation-name: logo;
+  animation-duration: 1.5s;
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(-270deg);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
