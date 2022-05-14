@@ -7,6 +7,10 @@ This portfolio is practice for the sake of learning.
 - CSS
 -> flexbox
 
+## Live Demo
+
+[Live Demo Link](https://tahseenzahra.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+
 ## Getting Started
 
 Clone the repository to use it on your local system.
