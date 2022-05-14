@@ -1,7 +1,7 @@
 .headline {
   background-color: #1c1a19;
   margin: 0%;
-  background-image: url(/images/bdimage.svg);
+  background-image: url(../images/bdimage.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   display: flex;
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 768px) {
   .headline {
-    background-image: url(/images/D_HomePgBG.svg);
+    background-image: url(../images/D_HomePgBG.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 500.13px 769.27px;

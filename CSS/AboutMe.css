@@ -5,7 +5,7 @@
 
 .Aboutme {
   margin-left: 24px;
-  background-image: url(./images/Aboutmebg.svg);
+  background-image: url(../images/Aboutmebg.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   display: grid;
@@ -62,7 +62,7 @@
   }
 
   .Aboutme {
-    background-image: url(/images/D_AboutmeBg.svg);
+    background-image: url(../images/D_AboutmeBg.svg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 350.13px 769.27px;

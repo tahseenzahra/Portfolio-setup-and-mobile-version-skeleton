@@ -1,5 +1,5 @@
 .ArtData {
-  background-image: url(/images/Pgbg.svg);
+  background-image: url(../images/Pgbg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,7 +51,7 @@
   }
 
   .Flashcard-1 {
-    background-image: url(/images/D_workCardsBG1.svg);
+    background-image: url(../images/D_workCardsBG1.svg);
   }
 
   .Flashcard-1 > .FlashcardPrjBTN {
@@ -71,15 +71,15 @@
 
   .Flashcard-2,
   .Flashcard-5 {
-    background-image: url(/images/D_workCardsBG2.svg);
+    background-image: url(../images/D_workCardsBG2.svg);
   }
 
   .Flashcard-3,
   .Flashcard-6 {
-    background-image: url(/images/D_workCardsBG3.svg);
+    background-image: url(../images/D_workCardsBG3.svg);
   }
 
   .Flashcard-4 {
-    background-image: url(/images/D_workCardsBG4.svg);
+    background-image: url(../images/D_workCardsBG4.svg);
   }
 }
