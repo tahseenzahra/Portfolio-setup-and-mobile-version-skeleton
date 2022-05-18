@@ -39,6 +39,10 @@ View the file through the 'index.html'.
 
 - GitHub: [@githubhandle](https://github.com/Solo7991)
 
+👤 **jorgegoco**
+
+- GitHub: [@githubhandle](https://github.com/jorgegoco)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

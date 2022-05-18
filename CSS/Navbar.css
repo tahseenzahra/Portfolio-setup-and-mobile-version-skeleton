@@ -37,8 +37,8 @@ div.hov {
   margin-left: auto;
 }
 
-.dropdown:hover {
-  background-color: #ff6b00;
+#dropdown-id {
+  cursor: pointer;
 }
 
 .Section_link {
