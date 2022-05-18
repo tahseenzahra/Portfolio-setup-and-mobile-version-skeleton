@@ -22,7 +22,7 @@ function hideMenu() {
 document.getElementById('dropdown-id').addEventListener('click', showMenu);
 document.getElementById('closebtn-id').addEventListener('click', hideMenu);
 
-let menuLinks = Array.from(document.querySelectorAll(".menu-links"));
-for (let i = 0; i < menuLinks.length; i++) {
-    menuLinks[i].addEventListener('click', hideMenu);
-  }
+const menuLinks = Array.from(document.querySelectorAll('.menu-links'));
+for (let i = 0; i < menuLinks.length; i + 1) {
+  menuLinks[i].addEventListener('click', hideMenu);
+}
