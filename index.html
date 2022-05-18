@@ -20,25 +20,64 @@
     <link rel="stylesheet" href="./CSS/WorkCards.css"/>
     <link rel="stylesheet" href="./CSS/AboutMe.css"/>
     <link rel="stylesheet" href="./CSS/ContactPg.css"/>
+    <link rel="stylesheet" href="./CSS/MobileMenu.css"/>
+
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Mobile Menu -->
+
+    <div id="mobile-menu">
+      <div class="mob-menu-bg">
+        <img src="./images/closebtn.svg" id="closebtn-id">
+        <div class="mobile-sectionLinks">
+          <ul class="mob-Section_link">
+            <li><a class="menu-links" href="#portfolio-id">Portfolio</a></li>
+            <div class="workspace-divider mob-div"> </div>
+            <li><a class="menu-links" href="#about-id">About</a></li>
+            <div class="workspace-divider mob-div"> </div>
+            <li><a class="menu-links" href="#contact-id">Contact</a></li>
+            <div class="workspace-divider mob-div"> </div>
+          </ul>
+        </div>
+      </div>
+      <hr class="footerHR2" />
+    </div>
+
     <!--- toolbar section -->
     <header>
       <nav class="toolbar">
         <a href="#" class="Robotofont textcolor logo">Tahseen Zahra</a>
+        <!-- <i >
+          <img src="./images/Dropdown.svg" alt="drop down icon" onclick="showMenu()">
+        </i> -->
         <a class="dropdown">
-          <img src="./images/Dropdown.svg" alt="drop down icon" />
+          <img src="./images/Dropdown.svg" alt="dropdown icon" id="dropdown-id" onclick="showMenu()">
         </a>
         <ul class="Section_link">
-          <li id="Portfolio_link"><a href="#">Portfolio</a></li>
+          <li  id="Portfolio_link"><a href="#">Portfolio</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
           <li><a href="#"><img src="./images/D_Mail.svg" alt="Mail icon" class="mail_box"/></a></li>
         </ul>
+
+        <!-- Mobile Menu
+
+        <div id="mobile-menu">
+          <div>
+            <button type="button"><img src="./images/closebtn.svg" id="closebtn-id"></button>
+            <div class="mobile-sectionLinks">
+              <ul class="Section_link" id="">
+                <li id="Portfolio_link"><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+
       </nav>
     </header>
-    <div class="hov">Zahra's Portfolio</div>
     <!-- Headline Section -->
     <div class="headline">
       <h1 class="item-A mainText CreteRoundfont">Hey There. I’m Zahra</h1>
@@ -59,7 +98,7 @@
     </div>
 
     <!-- Works Section -->
-    <section class="worksection">
+    <section class="worksection" id="portfolio-id">
       <div class="work_section_line">
         <h2 class="workheading CreteRoundfont">My Recent Works</h2>
         <div class="workspace-divider"> </div>
@@ -189,7 +228,7 @@
           <!-- Flash Cards end  -->
         </div>
     <!-- About me -->
-    <section class="MainAboutme">
+    <section class="MainAboutme" id="about-id">
       <div class="Aboutme">
 
           <h3 class="part_a mainText CreteRoundfont">About me</h3>
@@ -241,45 +280,45 @@
       </ul>
     </section>
 
-    <footer class="footer">
+    <!-- Footer -->
+    <footer class="footer" id="contact-id">
       <div class="footer_contact">
-      <p class="item_1 Interfont footerTxt">
-        I'm always interested in hearing about new projects, so if you'd like to
-        chat please get in touch.
-      </p>
-      <form
-        class="contactForm item_2"
-        action="https://formspree.io/f/xeqnpapb"
-        method="POST"
-      >
-        <input
-          class="no-outline"
-          type="text"
-          maxlength="30"
-          placeholder="Full Name"
-        required/>
+        <p class="item_1 Interfont footerTxt">
+          I'm always interested in hearing about new projects, so if you'd like to
+          chat please get in touch.
+        </p>
+        <form
+          class="contactForm item_2"
+          action="https://formspree.io/f/xeqnpapb"
+          method="POST">
+          <input
+            class="no-outline"
+            type="text"
+            maxlength="30"
+            placeholder="Full Name"
+          required/>
 
-        <input
-          class="no-outline"
-          type="email"
-          name="email"
-          placeholder="Email Address"
-        required/>
+          <input
+            class="no-outline"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+          required/>
 
-        <textarea
-          name="message"
-          maxlength="500"
-          rows="7"
-          cols="70"
-          class="formTxtArea"
-          placeholder="Enter text here."
-        required></textarea
-        >
-        <button type="submit" class="contactBTN PrjBTN SePrjBTN Interfont footerBTN">
-          Get in touch
-        </button>
-      </form>
-    </div>
+          <textarea
+            name="message"
+            maxlength="500"
+            rows="7"
+            cols="70"
+            class="formTxtArea"
+            placeholder="Enter text here."
+          required></textarea
+          >
+          <button type="submit" class="contactBTN PrjBTN SePrjBTN Interfont footerBTN">
+            Get in touch
+          </button>
+        </form>
+      </div>
 
       <hr class="footerHR1" />
       <ul class="contactIcons socialmediaIcons">
@@ -289,7 +328,12 @@
         <li><a href="#"><img src="images/Twitter.svg" alt="Twitter Link"></a></li>
         <li><a href="#"><img src="images/Medium.svg" alt="Medium Link"></a></li>
       </ul>
-      <hr class="footerHR2" />
+      <hr class="footerHR2">
     </footer>
+
+    <!-- Scripting section -->
+
+    <script src="./script/mobileMenu.js"></script>
+
   </body>
 </html>

@@ -1,0 +1,42 @@
+#mobile-menu {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+.mob-menu-bg {
+  background-color: #3c3a39;
+  padding: 0 24px;
+}
+
+#closebtn-id {
+  float: right;
+  cursor: pointer;
+}
+
+.mob-Section_link {
+  list-style: none;
+  width: 100%;
+  padding-left: 0%;
+}
+
+.mob-Section_link > li > a {
+  color: #fff5e1;
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.mob-div {
+  border-top: 0.1px solid #6F6C6B;
+}
+
+.mobile-sectionLinks {
+  padding-top: 108px;
+  padding-bottom: 470px;
+  width: 100%;
+}
