@@ -37,6 +37,10 @@ div.hov {
   margin-left: auto;
 }
 
+#dropdown-id {
+  cursor: pointer;
+}
+
 .Section_link {
   display: none;
 }
