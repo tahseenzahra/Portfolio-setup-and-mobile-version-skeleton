@@ -37,10 +37,6 @@ div.hov {
   margin-left: auto;
 }
 
-.dropdown:hover {
-  background-color: #ff6b00;
-}
-
 .Section_link {
   display: none;
 }
